@@ -5,6 +5,10 @@
 /* ----------------------------
     Common Styles Start
 -------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -19,6 +23,65 @@ main{
 /* ----------------------------
     Common Styles Start
 -------------------------------*/
+/* ---------------------------------------
+        header-section start
+-------------------------------------------*/
+.header-section{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 52px;
+}
+nav{
+    margin-left: 156px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 37px;
+}
+.login-button{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    margin-right: 120px;
+    padding: 10px 24px;
+}
+.fa-sign-in{
+    margin-right: 8px ;
+}
+.header-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 102px;
+    margin-top: 49px;
+}
+.header-title {
+    width: 485px;
+    margin-left: 155px;
+    margin-top: 72px;
+}
+.header-title h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.header-banner img {
+    width: 556.01px;
+    height: 438px;
+}
+/* ---------------------------------------
+        header-section end
+-------------------------------------------*/
 /* ---------------------------------------
         players-section start
 -------------------------------------------*/
