@@ -59,3 +59,49 @@ main{
 /* ---------------------------------------
         players-section end
 -------------------------------------------*/
+/* ---------------------------------------
+        highlights-section start
+-------------------------------------------*/
+.highlights-section {
+    margin-top: 165px;
+}
+.highlights-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+}
+.highlight-title {
+    width: 469px;
+    margin-top: 59px;
+}
+.highlight-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.highlight-title p {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color : #E02C6D;
+     padding: 10px 24px;
+     color: #FFFFFF;
+}
+.fa-arrow-right {
+    margin-left: 8px;
+}
+.match img {
+    width: 567px;
+    height: 427px;
+}
+/* ---------------------------------------
+        highlights-section end
+-------------------------------------------*/
